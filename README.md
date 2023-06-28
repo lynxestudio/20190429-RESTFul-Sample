@@ -22,17 +22,17 @@ The main steps for this exercise are as follows:
 
 Use the EmployeesDac class, which contains the method for accessing the database.
 Write the EmployeesServiceImplementation class with the following code (fig 1).
-Fig 1. EmployeeServiceImplementation.cs
-
+<p>Fig 1. EmployeeServiceImplementation.cs</p>
+<img src="picture_library/wcfpost/EmployeeServiceImplementation.png">
 Write a new interface called IEmployeesServiceContract and type the following code(fig 2).
-Fig 2. IEmployeeServiceContract.cs
-
+<p>Fig 2. IEmployeeServiceContract.cs</p>
+<img src="picture_library/wcfpost/IEmployeeServiceContract.png">
 Write the EmployeesService.svc file that references the service implementation with the following code (fig 3).
-Fig 3. EmployeeService.svc
-
+<p>Fig 3. EmployeeService.svc</p>
+<img src="picture_library/wcfpost/EmployeesService.png">
 Finally, add the following config file (fig 4)
-Fig 4. Web.config
-
+<p>Fig 4. Web.config</p>
+<img src="picture_library/wcfpost/webconfig.png">
 Testing the service with Soap UI.
 The WCF service that you have built runs the same way as a regular Web application and is hosted by a Web Server.
 
@@ -41,15 +41,13 @@ If you browse the .svc file, you can view the help page for the WCF service. It 
 Once we've made all the required settings, running the tests are very easy with SOAP UI. Before running, we can define the json request or query string parameters. Use the Green button to start running the test.
 
 Testing the HTTP-POST request, after completing the execution, the result window displays the JSON Response.
-Fig 5. HTTP-POST Request
-
+<p>Fig 5. HTTP-POST Request</p>
+<img src="picture_library/wcfpost/wcfpost1.png">
 
 Testing the HTTP-PUT request after completing the execution, the result window displays the JSON Response.
-Fig 6. HTTP-PUT Request
-
+<p>Fig 6. HTTP-PUT Request</p>
+<img src="picture_library/wcfpost/wcfpost2.png">
 
 Testing the HTTP-DELETE request after completing the execution, the result window displays the JSON Response.
-Fig 7. HTTP-DELETE Request
-
-
-Download example source code.
+<p>Fig 7. HTTP-DELETE Request</p>
+<img src="picture_library/wcfpost/wcfpost3.png">
