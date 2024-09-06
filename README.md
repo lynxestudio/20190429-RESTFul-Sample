@@ -36,12 +36,12 @@ Once we've made all the required settings, running the tests are very easy with 
 
 Testing the HTTP-POST request, after completing the execution, the result window displays the JSON Response.
 <p>Fig 1. HTTP-POST Request</p>
-<img src="images/wcfpost1.png">
+<img src="images/fig1.png">
 
 Testing the HTTP-PUT request after completing the execution, the result window displays the JSON Response.
 <p>Fig 2. HTTP-PUT Request</p>
-<img src="images/wcfpost2.png">
+<img src="images/fig2.png">
 
 Testing the HTTP-DELETE request after completing the execution, the result window displays the JSON Response.
 <p>Fig 3. HTTP-DELETE Request</p>
-<img src="images/wcfpost3.png">
+<img src="images/fig3.png">
